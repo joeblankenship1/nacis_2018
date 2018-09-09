@@ -35,10 +35,11 @@
   * With Audience
 * Process of Engagement
 
-# Processes of Design
+# Processes of Directed Interaction
 
+* Tranparent Narrative
 * Explicit Bias
-* Guided & Transparent Legibility
+* Simple, Guided, Legible
 * Ethics of Digital Mapping
 
 # Resources
