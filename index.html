@@ -25,28 +25,30 @@
                         <small><a href="https://thejoeblankenship.com/" target="_blank">Joe Blankenship</a></small>
                         <small> - </small>
                         <small><a href="http://situatedlaboratories.net/" target="_blank">Rich Donohue</a></small>
+                        <small> - </small>
+                        <small><a href="https://newmapsplus.as.uky.edu/" target="_blank">NewMapsPlus</a></small>
                     </p>
                     <aside class="notes">
-                        <p>Test</p>
+                        <p>My name is Joe Blankenship and I’m a PhD student at the University of Kentucky. Today I will be presenting on the concept of direct interaction in web map development and the implications of using such an approach. This presentation and the content was co-developed by Dr. Rich Donohue who is unfortunately not with us today. At the start of 2018, I began taking classes through the NewMapsPlus graduate program with the goal of improving my languishing JavaScript and web design skills. These courses reignited my passion and appreciation for cartography and spatial visualizations, specifically web maps. However, throughout these courses I started to notice certain limitations in the standard web map medium.</p>
                     </aside>
                 </section>
                 <section>
                     <h3><a href="https://thejoeblankenship.com/kenya_education/" target="_blank">Kenya Education - 2014</a></h3>
                     <aside class="notes">
-                        <p>Test</p>
+                        <p>One of the initial projects was this map of Kenyan primary school student recidivism in 2014. The map provides several interactions from the hover responses with graphs on the map to the grade slider in the lower left corner of the map canvas. In addition to a title, brief synopsis, and description of the map, links to the data, references, and author were provided to the map reader. However, despite all of this, it is still unclear what I, as the map developer and designer, am trying to say with this map. So I set off to find better ways of presenting not only maps, but their intents, meanings, and messages to the map readers.</p>
                     </aside>
                 </section>
                 <section>
                     <h3><a href="https://thejoeblankenship.com/bitcoin_labor/" target="_blank">Bitcoin Labor</a></h3>
                     <aside class="notes">
-                        <p>Test</p>
+                        <p>This initial attempt is something I’m sure many of you are familiar with: the narrative map (not to be confused with “story maps”). This particular map leverages D3 and Leaflet to create a hybrid experience for the map reader. Instead of giving the map reader immediate control over the map data, I give them a controlled path through which they can listen to the narrative I am attempting to create with this map. The title and initial view presents the topics and problems to be addressed with this map: Bitcoin; access; inequality. Then, through the majority of the website, all the map reader can do is scroll: being led through the elements of the map to come in a way that a typical static legend fails to accomplish. The reader is given colors and descriptions that connect the topics and problems to the forthcoming Leaflet map while allowing them to situate their reading within a specified critical avenue. When arriving at the interactive map, the map reader can explore the elements and come to their own conclusions and critiques based on the context the map creator has provided them, producing a much more focused reading of the map. They can then transition to the conclusion of the map creator who they can then contact and extend a critique of the map format, data, or narrative.</p>
                     </aside>
                 </section>
                 <section>
                     <h2>Direct Interaction</h2>
                     <medium>the control of web map form and function resulting in a user interaction intended by the designer and developed in a way that is transparent and explicitly ethical</medium>
                     <aside class="notes">
-                        <p>Test</p>
+                        <p>The following presentation will take us through the discussion of usability and interaction that resulted in the idea of directed interaction. Directed interaction is defined as the control of web map form and function resulting in a user interaction intended by the designer and developed in a way that is transparent and explicitly ethical.</p>
                     </aside>
                 </section>
             </section>
@@ -56,24 +58,84 @@
                 </section>
                 <section>
                     <img src="img/lefebvre.jpeg" alt="Oops!"><img src="img/massey.jpeg" alt="Oops!"><img src="img/code_space.jpeg" alt="Oops!">
+                    <aside class="notes">
+                        In consideration of how and why a map creator can and should control, our initial approach is through the form and function of the map. Drawing on concepts of the production of space and place as argued by Henri Lefebvre (1991) and Doreen Massey (2013), we examine the social aspects of the spaces and places of web maps via their code/spaces (Kitchin & Dodge, 2011) which have the potential to produce varied effects through their readings.
+                        <p>
+                            Sources: <br>
+                            Lefebvre, H. (1991). The production of space. (D. Nicholson-Smith, Trans.). Malden, MA: Blackwell Publishing. (Original work published in 1974) <br>
+                            Massey, D. (2005). For space. London, UK: Sage Publications Ltd.<br>
+                            Kitchin, R., & Dodge, M. (2014). Code/space: Software and everyday life. Cambridge, MA: The MIT Press. (Original work published in 2011)<br>
+                        </p>
+                    </aside>
                 </section>
                 <section>
                     <h3>Web Maps for Users</h3>
+                    <img src="img/us_unemployment.png" alt="Oops!">
+                    <aside class="notes">
+                    <ul>
+                        <li>Form and function flow from web creator to the web map user, which becomes the intended UX/UI for their guided experience.</li>
+                        <li>We then have to ask what effects are being produced through the design of the creator to the user?</li>
+                        <li>How do we avoid black-boxing of intent and meaning through their design?</li>
+                        <li>At what point is too much interaction or design obscuring the message?</li>
+                    </ul>
+                    <p>Source: https://thejoeblankenship.com/us_unemployment/</p>
+                    </aside>
                 </section>
                 <section>
                     <h3>Map Creator Intent</h3>
+                    <img src="img/2016-11-03-1478193304-6800403-webdev.jpg" alt="Oops!">
+                    <aside class="notes">
+                        This refers to what the creator wants the map to do for the user. The map creator may be constrained by limitations of ability and tooling in the process of producing their map. A creator can also anticipate user needs and build in a manner that accounts for them, but responsibility of being ethically transparent ultimately falls on creator.
+                        <p>Source: http://images.huffingtonpost.com/2016-11-03-1478193304-6800403-webdev.jpg</p>
+                    </aside>
                 </section>
                 <section>
                     <h3>Effects of Viewing</h3>
+                    <img src="img/Image-sites-and-modalities-for-visual-analysis-Adapted-from-Roses-2007-2012-critical.png" alt="Oops!">
+                    <aside class="notes">
+                        <ul>
+                            <li>Drawing on the visual methods of Gillian Rose (2007), we can use the concept of “audiencing” in understanding that once one puts out art or a cartographic product, the audience then has ownership of interpretation and understanding.</li>
+                            <li>The audience is reproducing and reinterpreting the message of the map and its utility.</li>
+                            <li>Limiting user actions, the message of the creator is preserved and directed more so than traditional maps while mitigating aspects of misinterpretation.</li>
+                        </ul>
+                        <p>Source: https://www.researchgate.net/profile/Terry_Ownby/publication/235419815/figure/fig1/AS:339888282062848@1458047089028/Image-sites-and-modalities-for-visual-analysis-Adapted-from-Roses-2007-2012-critical.png</p>
+                    </aside>
                 </section>
                 <section>
                     <h3>Simplified Narrative Approach</h3>
+                    <img src="img/nyt_climate_lex.png" alt="Oops!">
+                    <aside class="notes">
+                        <ul>
+                            <li>A simplified narrative approach provides transparent intent of creator.</li>
+                            <li>Direct interaction helps provide a path whereby the user's engagement is more aligned with statement of the map's "About" and the creator's ultimate intention.</li>
+                        </ul>
+                        <p>Source: https://www.nytimes.com/interactive/2018/08/30/climate/how-much-hotter-is-your-hometown.html</p>
+                    </aside>
                 </section>
             </section>
             <section>
-                <section>Interaction</section>
-                <section></section>
-                <section></section>
+                <section><h2>Interaction</h2></section>
+                <section>
+                    <h3>Encompassing Design</h3>
+                    <img src="img/unosat-members_1.jpg" alt="Oops!">
+                    <aside class="notes">
+                        <p>Because responsibility of constraint and interaction is on the map creator, their design must encompass the following considerations</p>
+                        <ul>
+                            <li>Multiple Platforms (television, desktop, tablet, smartphone)</li>
+                            <li>Multiple Generations (technologies though which varying age group predominantly interact visually)</li>
+                            <li>Multiple Cultures (local to global consideration of web map production)</li>
+                        </ul>
+                        <p>Source: https://home.cern/sites/home.web.cern.ch/files/image/update-for_the_public/2016/10/unosat-members_1.jpg</p>
+                    </aside>
+                </section>
+                <section>
+                    <h3>Modes of Audience Viewing</h3>
+                    <img src="img/interaction-roth.png" alt="Oops!">
+                    <aside class="notes">
+                        <p>Once the map creator transforms the form and function through a technology, the audience consumes and interprets the cartographic product through platforms, generations, cultures within their unique scales of space and geography (Roth, 2013).</p>
+                        <p>Source: Roth, R.E. (2013). Interactive maps: What we know and what we need to know. The Journal of Spatial Information Science. 6, 59-115.</p>
+                    </aside>
+                </section>
             </section>
             <section>
                 <section>Language and Design</section>
